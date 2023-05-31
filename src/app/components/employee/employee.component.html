@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Listado de Empleados</h2>
+
+    <input type="number" name="nameReferencia" [(ngModel)]="idEmployee">
+    
+    <button style="margin: 50px; padding: 10px" type="button" class="btn btn-primary" (click)="getEmployee()">Buscar</button>
+  
+    <div class="row">
+      <div class="col-md-4">
+        <div class="employee">
+          <ul class="list-group">
+            <li *ngFor="let employee of employeeList" class="list-group-item justify-content-between align-items-center">
+                <p><strong>Nombre:</strong> {{ employee.id }}</p>
+              <p><strong>Nombre:</strong> {{ employee.name }}</p>
+              <p><strong>Material:</strong> {{ employee.startDate }}</p>
+              <p><strong>Tipo:</strong> {{ employee.endDate }}</p>
+              <p><strong>Precio:</strong> {{ employee.anualSalaty }}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
