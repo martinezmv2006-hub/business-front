@@ -28,8 +28,8 @@ Aplicativo de la vista para mostrar la información del empleado con su filtro p
 
 ### Requisitos
 
-Angular CLI v16.0.1
-NodeJs v18.16.0
+- Angular CLI v16.0.1
+- NodeJs v18.16.0
 
 ### Iniciar
 ```sh
